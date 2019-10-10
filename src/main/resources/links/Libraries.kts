@@ -1,10 +1,8 @@
+
 import link.kotlin.scripts.LinkType.bitbucket
 import link.kotlin.scripts.LinkType.github
 import link.kotlin.scripts.Tags
-import link.kotlin.scripts.TargetType.ANDROID
-import link.kotlin.scripts.TargetType.IOS
-import link.kotlin.scripts.TargetType.JVM
-import link.kotlin.scripts.TargetType.NATIVE
+import link.kotlin.scripts.TargetType.*
 import link.kotlin.scripts.category
 import link.kotlin.scripts.link
 import link.kotlin.scripts.subcategory
@@ -363,6 +361,35 @@ category("Libraries/Frameworks") {
       href = "https://github.com/serpro69/kotlin-faker"
       type = github
       tags = Tags["test", "testing", "data-generator", "faker"]
+    }
+    link {
+      name = "skrapeit/skrape.it"
+      desc = "A DSL-driven HTML/XML parser-library that enables meaningful testing of rendered HTML templates."
+      href = "https://github.com/skrapeit/skrape.it"
+      platforms = arrayOf(JVM)
+      type = github
+      tags = Tags["test", "html", "template", "dom", "dsl", "parser", "webcrawler", "scraper", "ktor", "spring-boot"]
+    }
+    link {
+      name = "krzema12/PlotAssert"
+      desc = "Test the shape of your functions!"
+      href = "https://github.com/krzema12/PlotAssert"
+      type = github
+      tags = Tags["test", "testing", "dsl", "ascii-art"]
+    }
+    link {
+      name = "EranBoudjnah/TestIt"
+      desc = "Generate unit testing boilerplate from kotlin files."
+      href = "https://github.com/EranBoudjnah/TestIt"
+      type = github
+      tags = Tags["test", "testing", "generator", "generation", "mock"]
+    }
+    link {
+      name = "EranBoudjnah/RandomGenKt"
+      desc = "Initialize instances of any class with generated data."
+      href = "https://github.com/EranBoudjnah/RandomGenKt"
+      type = github
+      tags = Tags["test", "testing", "random", "random-generation"]
     }
   }
   subcategory("Dependency Injection") {

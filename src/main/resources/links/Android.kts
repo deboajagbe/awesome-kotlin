@@ -364,6 +364,41 @@ category("Android") {
       type = github
       tags = Tags["android", "fragment", "controller", "navigation"]
     }
+    link {
+      name = "cortinico/slidetoact"
+      desc = "A simple 'Slide to Unlock' Material widget for Android, written in Kotlin"
+      href = "https://github.com/cortinico/slidetoact"
+      type = github
+      tags = Tags["android", "ui", "widget", "material", "kotlin", "kotlin-android", "slider"]
+    }
+    link {
+      name = "AppIntro/AppIntro"
+      desc = "Make a cool/material intro for you Android App - Now all in Kotlin!"
+      href = "https://github.com/AppIntro/AppIntro"
+      type = github
+      tags = Tags["android", "fragment", "intro", "material", "kotlin", "kotlin-android", "viewpager"]
+    }
+    link {
+      name = "CuriousNikhil/gossip"
+      desc = "Android TextToSpeech Helper to speak any text you want and handle events."
+      href = "https://github.com/CuriousNikhil/gossip"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "TextToSpeech"]
+    }
+    link {
+      name = "adrielcafe/PufferDB"
+      desc = "An Android & JVM key-value storage powered by Protobuf and Coroutines."
+      href = "https://github.com/adrielcafe/pufferdb"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "rxjava", "protobuf", "storage", "database", "key-value"]
+    }
+    link {
+      name = "adrielcafe/HAL"
+      desc = "A non-deterministic finite-state machine for Android & JVM that won't let you down."
+      href = "https://github.com/adrielcafe/hal"
+      type = github
+      tags = Tags["android", "kotlin", "coroutines", "livedata", "fsm", "state-machine", "finite-state-machine"]
+    }
   }
   subcategory("Frameworks") {
     link {
